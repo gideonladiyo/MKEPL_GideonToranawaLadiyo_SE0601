@@ -12,7 +12,8 @@ public class Song {
 	private Album album;
 	private Artist artist;
 	
-	public Song(String id, String title, String releaseYear, String musicFileURL, Album album, Artist artist) {
+	public Song(String id, String title, String releaseYear, 
+	String musicFileURL, Album album, Artist artist) {
 		this.id = id;
 		this.title = title;
 		this.releaseYear = releaseYear;
