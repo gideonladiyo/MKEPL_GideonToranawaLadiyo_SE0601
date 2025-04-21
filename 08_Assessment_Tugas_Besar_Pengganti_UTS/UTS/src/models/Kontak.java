@@ -1,0 +1,57 @@
+package models;
+
+public class Kontak {
+    private String namaLengkap;
+    private String jenisKelamin;
+    private String alamat;
+    private String nomorTelepon;
+    private String email;
+
+    public Kontak(String namaLengkap, String jenisKelamin, String alamat, String nomorTelepon, String email) {
+        this.namaLengkap = namaLengkap;
+        this.jenisKelamin = jenisKelamin;
+        this.alamat = alamat;
+        this.nomorTelepon = nomorTelepon;
+        this.email = email;
+    }
+
+    public String getNamaLengkap() {
+        return namaLengkap;
+    }
+
+    public void setNamaLengkap(String namaLengkap) {
+        this.namaLengkap = namaLengkap;
+    }
+
+    public String getJenisKelamin() {
+        return jenisKelamin;
+    }
+
+    public void setJenisKelamin(String jenisKelamin) {
+        this.jenisKelamin = jenisKelamin;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public String getNomorTelepon() {
+        return nomorTelepon;
+    }
+
+    public void setNomorTelepon(String nomorTelepon) {
+        this.nomorTelepon = nomorTelepon;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+}
