@@ -24,10 +24,7 @@ public class LibraryMember {
     }
 
     public boolean periksaKelayakanUpgrade() {
-        if (keanggotaan.layakDilihatDariLevel() && statistikAktivitas.getPoinLoyalitas() > 100) {
-            return true;
-        }
-        return false;
+        return keanggotaan.layakDilihatDariLevel() && statistikAktivitas.getPoinLoyalitas() > 100;
     }
 
     public double hitungSkorRisiko() {
