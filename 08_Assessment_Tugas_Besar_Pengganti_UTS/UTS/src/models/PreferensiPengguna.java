@@ -9,6 +9,11 @@ public class PreferensiPengguna {
         this.langgananBuletin = langgananBuletin;
     }
 
+    public void detail(){
+        System.out.println("Kode Referal : " + kodeReferal);
+        System.out.println("Langganan Buletin: " + langgananBuletin);
+    }
+
     public String getKodeReferal() {
         return kodeReferal;
     }
