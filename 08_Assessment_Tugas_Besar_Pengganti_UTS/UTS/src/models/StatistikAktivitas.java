@@ -14,6 +14,13 @@ public class StatistikAktivitas {
         this.poinLoyalitas = poinLoyalitas;
     }
 
+    public void detail(){
+        System.out.println("Buku Dipinjam: " + jumlahBukuDipinjam);
+        System.out.println("Terlambat    : " + jumlahTerlambat);
+        System.out.println("Denda        : Rp " + jumlahDenda);
+        System.out.println("Poin         : " + poinLoyalitas);
+    }
+
     public int getJumlahBukuDipinjam() {
         return jumlahBukuDipinjam;
     }

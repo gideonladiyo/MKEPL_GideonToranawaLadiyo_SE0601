@@ -15,6 +15,14 @@ public class Kontak {
         this.email = email;
     }
 
+    public void detail(){
+        System.out.println("Nama         : " + namaLengkap);
+        System.out.println("Jenis Kelamin: " + jenisKelamin);
+        System.out.println("Alamat       : " + alamat);
+        System.out.println("Telepon      : " + nomorTelepon);
+        System.out.println("Email        : " + email);
+    }
+
     public String getNamaLengkap() {
         return namaLengkap;
     }

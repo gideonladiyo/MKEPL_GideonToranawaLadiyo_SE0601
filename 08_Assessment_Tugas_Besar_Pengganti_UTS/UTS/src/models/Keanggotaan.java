@@ -16,6 +16,17 @@ public class Keanggotaan {
         this.tingkatKeanggotaan = tingkatKeanggotaan;
     }
 
+    public void detail(){
+        System.out.println("Kode Anggota : " + kodeAnggota);
+        System.out.println("Tanggal Gabung: " + tanggalGabung);
+        System.out.println("Status Aktif : " + statusAktif);
+        System.out.println("Tingkat      : " + tingkatKeanggotaan);
+    }
+
+    public boolean layakDilihatDariLevel(){
+        return tingkatKeanggotaan.equals("DASAR");
+    }
+
     public String getKodeAnggota() {
         return kodeAnggota;
     }
