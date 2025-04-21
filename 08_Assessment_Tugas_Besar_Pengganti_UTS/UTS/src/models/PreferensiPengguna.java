@@ -29,10 +29,4 @@ public class PreferensiPengguna {
     public void setLanggananBuletin(boolean l) {
         langgananBuletin = l;
     }
-
-    public void langgananBuletinPerpustakaan() {
-    }
-
-    public void gunakanKodeReferal(String kode) {
-    }
 }
