@@ -2,12 +2,12 @@ package models;
 
 public class Kontak {
     private String namaLengkap;
-    private String jenisKelamin;
+    private JenisKelamin jenisKelamin;
     private String alamat;
     private String nomorTelepon;
     private String email;
 
-    public Kontak(String namaLengkap, String jenisKelamin, String alamat, String nomorTelepon, String email) {
+    public Kontak(String namaLengkap, JenisKelamin jenisKelamin, String alamat, String nomorTelepon, String email) {
         this.namaLengkap = namaLengkap;
         this.jenisKelamin = jenisKelamin;
         this.alamat = alamat;
@@ -35,7 +35,7 @@ public class Kontak {
         return jenisKelamin;
     }
 
-    public void setJenisKelamin(String jenisKelamin) {
+    public void setJenisKelamin(JenisKelamin jenisKelamin) {
         this.jenisKelamin = jenisKelamin;
     }
 
